@@ -90,6 +90,8 @@ anova(Perchfullup,best.model)
 
 ### Best Two regressor model
 
+Best Double Model - Height + Width
+
 ## Pike
 
 ```{r}
@@ -124,7 +126,11 @@ summary(best.model)
 
 ### Best Models
 
+Best Model - Complete Model (L1+L2+L3+H+L)
+
 ### Best Two regressor model
+
+est Two Regressor Model L1-L3
 
 ## Roach
 
@@ -163,6 +169,12 @@ anova(Roachfullup,best.model)
 
 ### Best Models
 
+Best Model - Width + Length Three
+
 ### Best Two regressor model
 
+Best Two Regression Model - Length 3 + Width
+
 ## Final Summary Statements
+
+We can see from the results here that there are vary different predicting metrics amoung these fish species. For the Perch, Pike, and Roach each had unique models that best predict overall weight. Automation was key in determining the model of best fit.
