@@ -51,6 +51,12 @@ Whitefish <- select(Whitefish, -Species)
 
 ## Perch
 
+```{r}
+Perchfullup <- lm(Weight~ .,data=Perch)
+summary.lm(Perchfullup)
+```
+
+
 ### Best Models
 
 ### Best Two regressor model
